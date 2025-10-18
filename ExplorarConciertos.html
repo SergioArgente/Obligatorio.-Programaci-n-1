@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorar Conciertos</title>
+</head>
+<body>
+    <h1>Conciertos disponibles</h1>
+    <form>
+
+        <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Nombre del Concierto</th>
+                <th>Artista/Banda</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Oferta</th>
+                <th>Imagen</th>
+                <th>Cupos Disponibles</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tblConciertos">
+        <tbody>
+            <tr>
+                <td>Concierto Shakira</td>
+                <td>Shakira</td>
+                <td>Especial Las mujers no lloran</td>
+                <td>2500</td>
+                <td>No</td>
+                <td><img src="Img/Shakira.jpg" alt="Shakira" width="100"></td>
+                <td>50</td>
+                <td><button type="button">Solicitar reserva</button></td>
+            </tr>
+            <tr>
+                <td>Concierto Sinfonico</td>
+                <td>Ricky Martin</td>
+                <td>Espectáculo sinfónico</td>
+                <td>1800</td>
+                <td>Si</td>
+                <td><img src="Img/Ricky.jpg" alt="Ricky Martin" width="100"></td>
+                <td>30</td>
+                <td><input type="button" value="Solicitar reserva" id="btnSolicitarReserva"></td>
+            </tr>
+            <tr>
+                <td>Concierto Melendi</td>
+                <td>Especial 20 años</td>
+                <td>Repaso de todos sus éxitos</td>
+                <td>1500</td>
+                <td>No</td>
+                <td><img src="Img/Melendi.png" alt="Melendi" width="100"></td>
+                <td>30</td>
+                <td><input type="button" value="Solicitar reserva" id="btnSolicitarReserva"></td>
+            </tr>
+        </tbody>
+        </tbody>
+    </table>
+
+</form>
+
+    <p>Saldo disponible: 10000 pesos</p>
+
+
+
+    <script src="libreria.js"></script>
+    <script src="codigo.js"></script>
+</body>
+</html>

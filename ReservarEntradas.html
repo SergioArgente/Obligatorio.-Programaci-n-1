@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form>
+        <h2>Reservar Entradas</h2>
+
+        <table border="1" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Nombre del Concierto</th>
+                    <th>Artista/Banda</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Oferta</th>
+                    <th>Imagen</th>
+                    <th>Cupos Disponibles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Concierto Shakira</td>
+                    <td>Shakira</td>
+                    <td>Especial las mujeres no lloran</td>
+                    <td>2500</td>
+                    <td>No</td>
+                    <td align="center"><img src="Img/Shakira.jpg" alt="Shakira" width="100"></td>
+                    <td align="center">50</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+            <label for="txtCantidad">Cantidad de Entradas:</label>
+            <input type="number" id="txtCantidad" value="2">
+
+            <input type: "button" value="Solicitar Reserva" id="btnSolicitaReserva">
+
+        </form>
+
+        <p>Monto total: 2500 pesos</p>
+        <p>Saldo disponible: 10000 pesos</p>
+
+        <p id="pMensaje"></p>
+    
+</body>
+</html>

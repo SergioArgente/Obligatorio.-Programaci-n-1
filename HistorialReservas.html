@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Historial de reservas</h1>
+
+     <table border="1" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Nombre del Concierto</th>
+                    <th>Cantidad de Entradas</th>
+                    <th>Monto Total</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Caso de prueba 1: reserva pendiente -->
+                <tr>
+                    <td>Concierto Shakira</td>
+                    <td align="center">2</td>
+                    <td align="center">5000</td>
+                    <td>Aprobada</td>
+                    <td align="center"><input type="button" value="-" style="width:100%"></td>
+                </tr>
+                <!-- Caso de prueba 2: reserva aprobada -->
+                <tr>
+                    <td>Concierto Riky Martin</td>
+                    <td align="center">1</td>
+                    <td align="center">1800</td>
+                    <td>Pendiente</td>
+                    <td align="center"><input type="button" value="Cancelar Reserva" style="width:100%"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+
+    <p>Saldo disponible: <span id="saldoDisponible">3200</span> pesos</p>
+    <p>Total reservas aprobadas: <span id="totalAprobadas">5000</span> pesos</p>
+
+    <script src="libreria.js"></script>
+    <script src="codigo.js"></script>
+</body>
+</html>
