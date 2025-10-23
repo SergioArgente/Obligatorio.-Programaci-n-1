@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Página-1" id="Ksfg33UPMY3wgGZPJgEM">
-    <mxGraphModel dx="1952" dy="1510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="1162" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,10 +64,10 @@
           <mxGeometry x="451" y="685" width="157" height="57" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1188" y="151" width="876" height="1283" as="geometry" />
+          <mxGeometry x="1188" y="82" width="876" height="1352" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-21" value="Systema" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1183" y="114" width="60" height="30" as="geometry" />
+          <mxGeometry x="1181" y="49" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3cUJ8YKRQh1XXiJDOw4U-26" target="3cUJ8YKRQh1XXiJDOw4U-27">
           <mxGeometry relative="1" as="geometry">
@@ -98,6 +98,14 @@
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3cUJ8YKRQh1XXiJDOw4U-26" target="3cUJ8YKRQh1XXiJDOw4U-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3cUJ8YKRQh1XXiJDOw4U-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3cUJ8YKRQh1XXiJDOw4U-26" target="3cUJ8YKRQh1XXiJDOw4U-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1554" y="308" />
+              <mxPoint x="1554" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-26" value="Clientes" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1049" y="278" width="30" height="60" as="geometry" />
         </mxCell>
@@ -123,7 +131,7 @@
           <mxGeometry x="1067" y="958" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-32" value="registrarse" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1667" y="172" width="157" height="57" as="geometry" />
+          <mxGeometry x="1670" y="91" width="157" height="57" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-33" value="explorar conciertos disponibles" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1416" y="349" width="157" height="57" as="geometry" />
@@ -141,7 +149,7 @@
           <mxGeometry x="1784" y="917" width="157" height="57" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-38" value="iniciar session" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="256" width="157" height="57" as="geometry" />
+          <mxGeometry x="1670" y="169" width="157" height="57" as="geometry" />
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-40" value="Ver conciertos en oferta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1411" y="422" width="157" height="57" as="geometry" />
@@ -195,6 +203,9 @@
         </mxCell>
         <mxCell id="3cUJ8YKRQh1XXiJDOw4U-57" value="Marcar o desmarcar conciertos como en oferta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1849" y="1231" width="182" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="3cUJ8YKRQh1XXiJDOw4U-62" value="cerrar session" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="246" width="157" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
